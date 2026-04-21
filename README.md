@@ -195,6 +195,17 @@ the NBC only *to the extent it exceeds the NBC*. Practical meaning:
 
 ---
 
+## Sister skills
+
+Companion Claude Skills for related Canadian building-code jurisdictions:
+
+- [National-Building-Code-of-Canada-Skill](https://github.com/dorianbanks/National-Building-Code-of-Canada-Skill) — NBC 2020, adopted in entirety by Yellowknife By-law §4. Use for technical NBC questions.
+- [National-Energy-Code-of-Canada-Skill](https://github.com/dorianbanks/National-Energy-Code-of-Canada-Skill) — NECB 2020, adopted in entirety by Yellowknife By-law §5. Use for Part 3 non-residential energy framework.
+- [Vancouver-Building-By-law-Skill](https://github.com/dorianbanks/Vancouver-Building-By-law-Skill) — parallel Canadian municipal by-law example (City of Vancouver, VBBL 2025).
+- [British-Columbia-Building-Code-Skill](https://github.com/dorianbanks/British-Columbia-Building-Code-Skill) — BCBC 2024 for BC projects (different jurisdiction; closely tracks NBC like Yellowknife does).
+
+---
+
 ## Credits
 
 Built by **Dorian Banks**. Released under the MIT License — see
