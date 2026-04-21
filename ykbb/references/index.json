@@ -1,0 +1,107 @@
+{
+  "bylaw": {
+    "id": "yk-bylaw-5058",
+    "title": "City of Yellowknife Building By-law No. 5058",
+    "adopted": "2022-05-30",
+    "adopting_authority": "Council of the Municipal Corporation of the City of Yellowknife",
+    "enabling_authority": "Cities, Towns and Villages Act, S.N.W.T. 2003, c.22, ss. 70, 71, 72, 73, 75",
+    "repeals": "By-law No. 4469 and amendments",
+    "pdf_asset": "assets/yk_bylaw_5058_2022.pdf",
+    "pdf_pages_total": 39,
+    "jurisdictional_scope": "Inside City of Yellowknife municipal limits only"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Administrative Requirements",
+      "page_range": [3, 22],
+      "subparts": [
+        {"name": "Short Title", "sections": [1], "page": 3},
+        {"name": "Interpretation", "sections": [2, 3], "page_range": [3, 8]},
+        {"name": "Codes and Standards", "sections": [4, 5, 6, 7], "page": 8,
+         "adopted_codes": ["NBC 2020 (§4)", "NECB 2020 (§5)", "EnerGuide Rating System Technical Procedures v15 (§6)"]},
+        {"name": "Reference and Scope", "sections": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+         "page_range": [8, 9],
+         "notable": {"paramountcy": "§15 — By-law prevails where it exceeds the NBC"}},
+        {"name": "Exemption", "sections": [17, 18], "page_range": [9, 10]},
+        {"name": "Permits and Occupancy", "sections": [19, 20, 21, 22, 23, 24], "page_range": [10, 13]},
+        {"name": "Inspections", "sections": [25, 26, 27, 28], "page": 13},
+        {"name": "Responsibilities", "sections": [29, 30, 31, 32, 33, 34, 35], "page_range": [14, 16]},
+        {"name": "Enforcement", "sections": [36, 37], "page": 17},
+        {"name": "Orders", "sections": [38, 39, 40, 41, 42, 43, 44], "page_range": [17, 20],
+         "order_types": ["Uncover Work", "Stop-Work", "Unsafe Condition", "Do Not Occupy",
+                         "Removal of Unauthorized Encroachment", "Removal of Structure"]},
+        {"name": "Offences and Penalties", "sections": [45, 46], "page_range": [20, 21],
+         "max_fine_individual_cad": 2000, "max_fine_corporation_cad": 10000,
+         "max_imprisonment_months": 6, "strict_liability": true},
+        {"name": "Fees and Charges", "sections": [47, 48, 49, 50, 51], "page": 21,
+         "notable": {"double_fees": "§51 — up to double permit fees if work before permit"}},
+        {"name": "Schedules", "sections": [52], "page": 22}
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Local Construction Requirements",
+      "page_range": [22, 26],
+      "note": "In addition to the NBC (§53)",
+      "subparts": [
+        {"name": "Application", "sections": [53], "page": 22},
+        {"name": "Foundations", "sections": [54, 55, 56, 57, 58], "page_range": [22, 23],
+         "schedule_ref": "B"},
+        {"name": "Standpipe System", "sections": [59], "page": 23,
+         "notable": {"nfpa": 14, "fdc": "65 mm SIPT"}},
+        {"name": "Sprinkler System", "sections": [60], "page": 23},
+        {"name": "Multi-Family Dwelling", "sections": [61], "page_range": [23, 24],
+         "notable": {"sprinkler_threshold_units": 3, "required_standard": "NFPA 13"}},
+        {"name": "Hydrants", "sections": [62, 63], "page": 24},
+        {"name": "Energy Efficiency", "sections": [64], "page_range": [24, 25],
+         "schedule_ref": ["C", "D"]},
+        {"name": "Mechanical System", "sections": [65], "page": 26},
+        {"name": "Water and Sewer", "sections": [66], "page": 26},
+        {"name": "Retaining Wall", "sections": [67, 68, 69], "page": 26,
+         "schedule_ref": "E",
+         "thresholds_mm": {"no_permit": 600, "drawings": 1200, "rdp_required": ">1200"}},
+        {"name": "Signs", "sections": [70], "page": 26},
+        {"name": "Repeals", "sections": [71], "page": 26}
+      ]
+    }
+  ],
+  "signatures": {"page": 27, "readings": ["First (May 9, 2022)", "Second (May 9, 2022)", "Third (May 30, 2022)"]},
+  "schedules": [
+    {"letter": "A", "title": "Offences and Penalties (Voluntary Fines)", "page": 28,
+     "fines_cad": {"fail_to_comply_order_ind": 200, "fail_to_comply_order_corp": 1000,
+                   "fail_to_display_permit": 50, "fail_to_obtain_permit_ind": 200,
+                   "fail_to_obtain_permit_corp": 1000, "fail_to_comply_permit_conditions": 500}},
+    {"letter": "B", "title": "Concrete Piers", "page_range": [29, 32],
+     "cases": [
+       {"case": 1, "page": 29, "spacing_mm": 2400, "axial_kN": 630, "lateral_kN": 4.5, "dia_mm": 300, "max_h_mm": 2400, "long_rebar": "4×15M"},
+       {"case": 2, "page": 30, "spacing_mm": 3000, "axial_kN": 800, "lateral_kN": 6.3, "dia_mm": 300, "max_h_mm": 2130, "long_rebar": "4×15M"},
+       {"case": 3, "page": 31, "spacing_mm": 4500, "axial_kN": 1175, "lateral_kN": 9.75, "dia_mm": 300, "max_h_mm": 1760, "long_rebar": "6×15M"},
+       {"case": 4, "page": 32, "spacing_mm": 6000, "axial_kN": 1822, "lateral_kN": 21, "dia_mm": 300, "max_h_mm": 1410, "long_rebar": "6×30M"}
+     ]},
+    {"letter": "C", "title": "Energy NBC Part 9 Residential", "page": 33,
+     "airtightness": {"mid_construction_ach50": 3.0, "final_ach50": 1.5,
+                      "small_building_mid_nla_cm2_per_m2": 1.5, "small_building_final_nla_cm2_per_m2": 1.0,
+                      "small_building_threshold_ft2": 1200},
+     "modelling_standard": "ANSI/ASHRAE 140",
+     "conformance": ["NBC 9.36.5", "EnerGuide Rating System"]},
+    {"letter": "D", "title": "Energy NBC Part 3 Residential", "page_range": [34, 36],
+     "prescriptive": {"page": 34,
+       "walls_ag_RSI": 6.82, "walls_bg_RSI": 5.95, "ceil_RSI": 9.09,
+       "slab_on_ground_RSI": 3.30, "exposed_floor_RSI": 8.75,
+       "perimeter_1m_RSI": 3.30,
+       "doors_USI": 1.4, "windows_USI": 1.4, "fdwr_pct": 17},
+     "performance": {"page": 36, "tedi_kwh_m2_a": 120, "teui_kwh_m2_a": 225,
+                     "air_leakage_L_s_m2_at_75Pa": 1.50,
+                     "heat_recovery": "NECB Article 5.2.10 Division B",
+                     "mechanical_efficiency": "NECB Article 5.2.12"},
+     "ventilation_standard": "ASHRAE 62.1-2001"},
+    {"letter": "E", "title": "Retaining Walls", "page_range": [37, 39],
+     "types": [
+       {"type": "Reinforced Concrete", "page": 37, "max_h_mm": 1200,
+        "concrete_mpa": 25, "cover_mm": 75, "vertical_rebar": "15M @ ≤500 o/c"},
+       {"type": "P.T. 6×6 Timber", "page": 38, "h_mm": 1219},
+       {"type": "Allan Block", "page": 39, "h_mm": 1219, "geogrid_layers": 3}
+     ]}
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "skill": "ykbb",
+  "description": "Evaluation suite for the City of Yellowknife Building By-law No. 5058 skill.",
+  "version": "1.0.0",
+  "tests": [
+    {
+      "id": "mfd-sprinkler-threshold",
+      "scenario": "A client is designing a three-unit rowhouse in Yellowknife. Do they need a sprinkler system?",
+      "expected_citations": ["§61", "§61(1)"],
+      "expected_pages": [23, 24],
+      "expected_answer_elements": [
+        "Yes — sprinkler required",
+        "§61 — multi-family dwellings with three units or more must have a sprinkler system",
+        "Must comply with NFPA 13 per §61(2)",
+        "AHJ disclaimer — confirm with City of Yellowknife Building Services Division"
+      ]
+    },
+    {
+      "id": "foundation-pinned-to-bedrock-no-rdp",
+      "scenario": "Can I build a Part 9 house with a continuous concrete foundation pinned to bedrock without engaging a structural engineer?",
+      "expected_citations": ["§54"],
+      "expected_pages": [22],
+      "expected_answer_elements": [
+        "Yes, under §54 — without requiring an RDP if the prescriptive requirements are met",
+        "20 mm dowels at max 1200 mm o/c (or 15 mm at 900 mm o/c), grouted min 300 mm into bedrock",
+        "Maximum wall height 3.66 m",
+        "Recommend confirming with City of Yellowknife Building Services Division"
+      ]
+    },
+    {
+      "id": "concrete-pier-schedule-b",
+      "scenario": "A Part 9 cabin needs concrete piers on bedrock. Does Schedule B really let me avoid an RDP?",
+      "expected_citations": ["§56", "Schedule B"],
+      "expected_pages": [22, 29],
+      "expected_answer_elements": [
+        "§56 — pier foundation pinned to bedrock for a Part 9 building may be approved without an RDP if designed per Schedule B",
+        "Four pre-designed cases (Cases 1-4 at 8/10/15/20 ft spacing)",
+        "Site must match a case's building dimensions, axial/lateral loads, and height",
+        "If the project doesn't fit a Schedule B case exactly, §58 kicks in — RDP + NBC Part 4"
+      ]
+    },
+    {
+      "id": "energy-p9-residential-prescriptive",
+      "scenario": "What R-value do I need for above-grade walls on a Part 9 residential build in Yellowknife using the prescriptive path?",
+      "expected_citations": ["§64(4)", "Table 1"],
+      "expected_pages": [25],
+      "expected_answer_elements": [
+        "§64(4) Table 1 — above-grade walls Effective RSI 5.28 (R-30)",
+        "FDWR 15% max",
+        "Tighter than NBC 9.36 default; paramountcy §15 says By-law wins"
+      ]
+    },
+    {
+      "id": "permit-expiry-2-years",
+      "scenario": "My building permit was issued 22 months ago and I still haven't finished. What's my situation?",
+      "expected_citations": ["§22(6)", "§22(7)"],
+      "expected_pages": [11],
+      "expected_answer_elements": [
+        "§22(6) — permits expire after 2 years (you have ~2 months)",
+        "§22(7) — may request written extension for adverse weather / strikes / material shortages / similar hardship",
+        "If only foundation built and permit lapses, §22(5) — 60 days to restore site"
+      ]
+    },
+    {
+      "id": "order-review-council-14-days",
+      "scenario": "I was issued a Stop-Work Order yesterday. Can I contest it?",
+      "expected_citations": ["§44"],
+      "expected_pages": [19, 20],
+      "expected_answer_elements": [
+        "§44 — Council review on written request",
+        "14-day filing window; hearing within 21 days",
+        "§44(3) — Council decision cannot contravene the NBC",
+        "§44(5) — imminent danger override — Council/City Manager can shorten timelines"
+      ]
+    },
+    {
+      "id": "nbc-question-redirect",
+      "scenario": "What's the minimum exit width for a Group A-2 occupancy in Yellowknife?",
+      "expected_citations": ["§4", "NBC"],
+      "expected_pages": [8],
+      "expected_answer_elements": [
+        "§4 adopts NBC 2020 in entirety — exit width governed by NBC, not this by-law",
+        "Recommend the canbc skill for authoritative NBC text",
+        "Flag §15 paramountcy — if any Yellowknife overlay exceeds NBC, the by-law applies"
+      ]
+    },
+    {
+      "id": "retaining-wall-800mm",
+      "scenario": "A homeowner wants to build an 800 mm retaining wall that doesn't support anything. Permit required?",
+      "expected_citations": ["§68", "Schedule E"],
+      "expected_pages": [26, 37],
+      "expected_answer_elements": [
+        "§68 — >600 mm and <1200 mm not supporting structure → drawings per Schedule E",
+        "Schedule E provides three typologies: Reinforced Concrete / P.T. 6×6 Timber / Allan Block",
+        "Yes, a permit is required"
+      ]
+    },
+    {
+      "id": "applicant-real-property-report",
+      "scenario": "Does the applicant really need to provide a Real Property Report before occupancy?",
+      "expected_citations": ["§29(1)(i)"],
+      "expected_pages": [14, 15],
+      "expected_answer_elements": [
+        "§29(1)(i) — yes, an up-to-date RPR to Building Services Division prior to occupancy being issued",
+        "Tied to §24 OC issuance criteria"
+      ]
+    },
+    {
+      "id": "schedule-a-voluntary-fine",
+      "scenario": "What's the voluntary fine for building without a permit?",
+      "expected_citations": ["Schedule A", "§46(3)"],
+      "expected_pages": [28, 21],
+      "expected_answer_elements": [
+        "Schedule A(3) — $200 (individual) / $1,000 (corporation) voluntary fine",
+        "§51 — permit fees may also be doubled",
+        "Summary Conviction (§45) can reach $2,000 individual / $10,000 corporation / 6 months imprisonment"
+      ]
+    }
+  ]
+}
